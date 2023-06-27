@@ -1,0 +1,29 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.task:last-child {
+  margin-bottom: 0;
+}
+
+.wrapperBtn {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  color: var(--color-light);
+  background-color: var(--color-accent);
+  border-radius: var(--border-radius);
+}
+
+.btn:hover {
+  background-color: var(--color-add);
+  color: var(--color-dark);
+}

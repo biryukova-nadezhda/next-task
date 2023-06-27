@@ -1,0 +1,6 @@
+.list {
+  padding: 2rem;
+  background-color: var(--color-lavender);
+  border-radius: var(--border-radius);
+  border: 2px solid var(--color-accent);
+}

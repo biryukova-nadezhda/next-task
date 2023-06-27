@@ -1,0 +1,13 @@
+.btn {
+  width: 100%;
+  padding: 1.2rem;
+  color: var(--color-ligth);
+  background-color: var(--color-accent);
+  border: none;
+  border-radius: var(--border-radius);
+}
+
+.btn:hover {
+  background-color: var(--color-add);
+  color: var(--color-dark);
+}
